@@ -85,7 +85,7 @@ const Example = () => {
 
 The `useClock` hooks has the following values:
 | Name  | Type  | value |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | currentTime  | string  | 10:23:18 pm or am |
 | currentDay  | string  | Weekdays |
 | hour  | string  | hour |
