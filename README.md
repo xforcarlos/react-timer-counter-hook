@@ -93,7 +93,6 @@ The `useClock` hooks has the following values:
 | seconds  | string  | seconds |
 | term  | string  | term "AM" or "PM" |
 
-
 <br>
 
 The `useTimer` hooks has the following parameters:
@@ -101,9 +100,20 @@ The `useTimer` hooks has the following parameters:
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | startFrom  | count down start from this value  | number | number | ❌ | 0
 | type  | if `false` countdown | boolean | `false` | ❌ | `true`
-| isStopWatch  | if `true` count will fire EndcallBack when count down reach 0 | `true` | `false` |
+| isStopWatch  | if `true` count will fire EndcallBack when count down reach 0 | `true` | `false` | ❌ | `false`
 | EndcallBack  | callback function run whte count down reach 0  | ()=> void | ()=>{} | ❌ | ()=>{}
 
+
+<br>
+
+The `useClock` hooks has the following values:
+| Name  | Type  | value |
+| ------------- | ------------- | ------------- |
+| counter  | string  | 1++ or 1-- |
+| start  | ()=> void  | ()=> void |
+| pause  | ()=> void  | ()=> void |
+| reset  | ()=> void  | ()=> void |
+| isRunning  | boolean  | boolean |
 
 
 
