@@ -64,3 +64,11 @@ buck-out/
 
 # Library
 lib/
+
+# exmple 
+
+rename.js
+# example
+example/*
+example/.bundle
+example/ios
