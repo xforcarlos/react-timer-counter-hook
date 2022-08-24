@@ -11,6 +11,9 @@
 npm install react-timer-counter-hook
 ```
 
+## Example
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/76874617/186437834-9bdc5e15-0666-4a18-bd10-a0c081ec3a21.gif)
+
 ## Import
 
 ```jsx
