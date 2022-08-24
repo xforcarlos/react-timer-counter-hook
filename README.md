@@ -83,11 +83,16 @@ const Example = () => {
 
 <br>
 
-The `useClock` hooks has the following parameters:
-| First Header  | Second Header |
+The `useClock` hooks has the following values:
+| Name  | Type  | value |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| currentTime  | string  | 10:23:18 pm or am |
+| currentDay  | string  | Weekdays |
+| hour  | string  | hour |
+| minute  | string  | min |
+| seconds  | string  | seconds |
+| term  | string  | term "AM" or "PM" |
+
 
 ---
 
