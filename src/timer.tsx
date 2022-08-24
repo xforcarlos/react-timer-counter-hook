@@ -27,7 +27,7 @@ export const useTimer = ({
   React.useEffect(() => {
     intervalId.current = setInterval(() => {
       if (isStopWatch && counter === 0) {
-        EndcallBack()
+        EndcallBack && EndcallBack()
         return
       }
       isRunning && setCounter(!type ? counter - 1 : counter + 1)
